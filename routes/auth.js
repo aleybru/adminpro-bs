@@ -25,12 +25,12 @@ router.post( '/google',
         validarCampos
     ],
     googleSignIn
-)
+);
 
 router.get( '/renew',
     validarJWT,
     renewToken
-)
+);
 
 
 
